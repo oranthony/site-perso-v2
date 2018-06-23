@@ -109,7 +109,7 @@ textarea {
   left: 16%;
   top: 49%;
   transform: translate(-49%, -49%);
-  font-family: "SF UI Display";
+  font-family: "SF UI Display",  Helvetica;
   font-size: 3.5em;
   color: white;
   text-align: right;
@@ -125,7 +125,7 @@ textarea {
 }
 
 .section {
-  font-family: "SF UI Display";
+  font-family: "SF UI Display",  Helvetica;
   font-size: 3.5em;
   /*margin-left: 4vw;*/
   position: relative;
@@ -133,7 +133,7 @@ textarea {
 }
 
 .title {
-  font-family: "SF UI Display";
+  font-family: "SF UI Display",  Helvetica;
   font-size: 2em;
   color: #ff3241;
   height: 0;
