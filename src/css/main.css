@@ -95,20 +95,26 @@ textarea {
 }
 
 .side-panel {
+  position: fixed;
+  top: 0;
   width: 30vw;
   height: 100vh;
   background-color: #ff3241;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   display: table-cell;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
 }
 
 #name {
+  left: 16%;
+  top: 49%;
+  transform: translate(-49%, -49%);
   font-family: "SF UI Display";
   font-size: 3.5em;
   color: white;
   text-align: right;
-  margin-right: 4vw;
+  //margin-right: 4vw;
+  position: fixed;
 }
 
 
@@ -121,7 +127,9 @@ textarea {
 .section {
   font-family: "SF UI Display";
   font-size: 3.5em;
-  margin-left: 4vw;
+  /*margin-left: 4vw;*/
+  position: relative;
+  left: 7%;
 }
 
 .title {
@@ -129,6 +137,10 @@ textarea {
   font-size: 2em;
   color: #ff3241;
   height: 0;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .sub-title {
@@ -146,6 +158,11 @@ textarea {
   text-align: center;
 }
 
+a {
+  color: #585858;
+  text-decoration: none;
+}
+
 html{
   min-height:100%;/* make sure it is at least as tall as the viewport */
   position:relative;
@@ -153,6 +170,7 @@ html{
 body{
   height:100%; /* force the BODY element to match the height of the HTML element */
   margin: 0;
+  color: #585858;
 }
 #side-panel{
   position:absolute;
