@@ -1,17 +1,26 @@
-#treasure{
-    background-color: #8E79D7;
+.treasure{
+    background-color: #8e79d794;
 }
 
 .title{
     position: absolute;
     top: 4%;
     left: 4%;
-    font-size: 4em;
+    font-size: 4vmax;
 }
 
 .content{
     position: relative;
-    top: 20%;
+    text-align: center;
+    /*top: 20%;*/
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.center {
+    display: inline-block;
 }
 
 .arrow{
@@ -28,17 +37,31 @@ embed {
 
 }
 
+.video {
+    width: 65vw;
+    height: 50vh;
+}
+
 .demo{
     position: relative;
-    left: 8%;
+    left: 2%;
     width: 160px;
 }
 
+.gif {
+    height: 60vh;
+}
+
 .description{
-    position: relative;
-    left: 25%;
-    font-size: 1.2em;
+    font-size: 1.4vmax;
+    display: inline-block;
     text-align: justify;
+    width: 80vw;
+}
+
+.video-description {
+    font-size: 1.2em;
+    margin-top: 15px;
 }
 
 .separator{
@@ -49,10 +72,10 @@ embed {
     height: 15px;
 }
 
-#polynews{
+.polynews{
     background-color: #91ff8b;
 }
 
-#delpeche{
+.delpech{
     background-color: #85dfff;
 }
