@@ -1,0 +1,58 @@
+#treasure{
+    background-color: #8E79D7;
+}
+
+.title{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    font-size: 4em;
+}
+
+.content{
+    position: relative;
+    top: 20%;
+}
+
+.arrow{
+    position: absolute;
+    bottom: 2%;
+    left: 48%;
+}
+
+embed {
+    position: fixed;
+    height: 100%;
+    width: 200%;
+    overflow: hidden;
+
+}
+
+.demo{
+    position: relative;
+    left: 8%;
+    width: 160px;
+}
+
+.description{
+    position: relative;
+    left: 25%;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.separator{
+    height: 30px;
+}
+
+.separatorSmall{
+    height: 15px;
+}
+
+#polynews{
+    background-color: #91ff8b;
+}
+
+#delpeche{
+    background-color: #85dfff;
+}
