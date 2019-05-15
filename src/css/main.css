@@ -94,6 +94,12 @@ textarea {
   color: #ff3241;
 }
 
+.hide {
+  display: none;
+  visibility: hidden;
+  font-size: 0;
+}
+
 .side-panel {
   position: fixed;
   top: 0;
