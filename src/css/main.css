@@ -90,6 +90,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #777777;
+  }
+  .section {
+    color: white;
+  }
+}
+
 .main-color {
   color: #ff3241;
 }
@@ -136,6 +145,11 @@ textarea {
   /*margin-left: 4vw;*/
   position: relative;
   left: 7%;
+}
+
+.section-4-font {
+  font-size: 3.4vw;
+  max-font-size: 30px;
 }
 
 .title {
