@@ -97,6 +97,17 @@ textarea {
   .section {
     color: white;
   }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  a {
+    color: #585858;
+    text-decoration: none;
+  }
 }
 
 .main-color {
@@ -180,10 +191,7 @@ textarea {
   text-align: center;
 }
 
-a {
-  color: #585858;
-  text-decoration: none;
-}
+
 
 html{
   min-height:100%;/* make sure it is at least as tall as the viewport */
