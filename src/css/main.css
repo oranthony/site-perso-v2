@@ -144,7 +144,8 @@ textarea {
   font-size: 3.5em;
   /*margin-left: 4vw;*/
   position: relative;
-  left: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 .section-4-font {
@@ -161,6 +162,7 @@ textarea {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
 }
 
 .sub-title {
@@ -278,13 +280,7 @@ body{
     clear: both;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 880px) {
   .small {
     display: none;
   }
@@ -297,8 +293,7 @@ body{
 }
 
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 880px){
   .big {
     display: none;
   }
@@ -321,6 +316,18 @@ body{
 @media screen and (max-width: 414px) {
   .section {
     font-size: 1.4em !important;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .mail-link {
+    font-size: 6vw;
+  }
+}
+
+@media screen and (min-width: 880px) and (max-width: 1150px) {
+  .mail-link {
+    font-size: 0.7em;
   }
 }
 
