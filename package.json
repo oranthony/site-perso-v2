@@ -67,6 +67,6 @@
     "url": "https://github.com/h5bp/html5-boilerplate.git"
   },
   "dependencies": {
-    "fullpage.js": "^2.9.7"
+    "fullpage.js": "^4.0.5"
   }
 }
